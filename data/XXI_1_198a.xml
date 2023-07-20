@@ -1,0 +1,119 @@
+<?xml-model href="https://xmlschema.huygens.knaw.nl/vgodd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?teipublisher odd="vangogh.odd" template="vangogh.html" view="page" media="latex"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:vg="http://www.vangoghletters.org/ns/">
+   <teiHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fileDesc>
+         <titleStmt>
+            <title>Troisième Décade</title>
+            <author>Pierre Bersuire</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>
+               <origDate>1351-1358</origDate>
+               <lang>français</lang>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>
+                <listWit>
+               		<witness xml:id="B">BNF, fr.263</witness>
+               		<witness xml:id="A">BNF, fr.261</witness>
+               		<witness xml:id="C">BNF, fr.271</witness>
+               		<witness xml:id="G">Sainte Gen. 777</witness>
+               		<witness xml:id="Liv">Histoire romaine. Tome XI. Livre XXI, Alain Hus (éd.), Les Belles Lettres, Paris, 1990</witness>
+            	</listWit>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="TitusLivius">
+                    <persName>Titus Livius</persName>
+                </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+         <listPlace>
+            <place xml:id="Cartago">
+                <placeName>Cartago</placeName>
+            </place>
+         </listPlace>
+      </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<body>
+            <div type="original" xml:lang="lt">
+                <pb f="f.198a" n="1" xml:id="pb-orig-f.198a-1" facs="iiif:Facsimile_Bersuire_XX1_1_198a.jpg"/>
+			    <ab xml:id="s.1.1.1">
+					[1] In parte operis mei licet mihi praefari, 
+				</ab>
+				<ab xml:id="s.1.1.2">
+				    quod in principio summae totius professi plerique sunt rerum scriptores, 
+				</ab>
+				<ab xml:id="s.1.1.3">
+				    bellum maxime omnium memorabile quae unquam gesta sint me scripturum, 
+				</ab>
+				<ab xml:id="s.1.1.4">
+				    quod Hannibale duce Carthaginienses cum populo Romano gessere. 
+				</ab>
+				<ab xml:id="s.1.1.5">
+				    Nam neque validiores opibus ullae inter se civitates gentesque contulerunt arma neque his ipsis tantum unquam virium aut roboris fuit;
+				</ab>
+
+				<ab xml:id="s.1.1.6">
+				    et haud ignotas belli artes inter sese sed expertas primo Punico conferebant bello,
+				</ab>
+				<ab xml:id="s.1.1.7">
+				    et adeo varia fortuna belli ancepsque Mars fuit ut propius periculum fuerint qui vicerunt.
+				</ab>
+				<ab xml:id="s.1.1.8">
+				    Odiis etiam prope maioribus certarunt quam viribus, 
+				</ab>
+				<ab xml:id="s.1.1.9">
+				    Romanis indignantibus quod victoribus victi ultro inferrent
+				    arma,
+				</ab>
+				<ab xml:id="s.1.2.1">
+				    Poenis quod superbe avareque crederent imperitatum victis esse.
+				</ab>
+		    </div>
+		    <div type="translation" xml:lang="mf">
+		        <pb f="f.198a" n="1" xml:id="pb-trans-f.198a-1" facs="iiif:Facsimile_Bersuire_XX1_1_198a.jpg"/>
+			    <ab xml:id="t.1.1.1">
+					[1] In parte operis mei licet mihi praefari, 
+				</ab>
+				<ab xml:id="t.1.1.2">
+				    quod in principio summae totius professi plerique sunt rerum scriptores, 
+				</ab>
+				<ab xml:id="t.1.1.3">
+				    bellum maxime omnium memorabile quae unquam gesta sint me scripturum, 
+				</ab>
+				<ab xml:id="t.1.1.4">
+				    quod Hannibale duce Carthaginienses cum populo Romano gessere. 
+				</ab>
+				<ab xml:id="t.1.1.5">
+				    Nam neque validiores opibus ullae inter se civitates gentesque contulerunt arma neque his ipsis tantum unquam virium aut roboris fuit;
+				</ab>
+				<ab xml:id="t.1.1.6">
+				    et haud ignotas belli artes inter sese sed expertas primo Punico conferebant bello,
+				</ab>
+				<ab xml:id="t.1.1.7">
+				    et adeo varia fortuna belli ancepsque Mars fuit ut propius periculum fuerint qui vicerunt.
+				</ab>
+				<ab xml:id="t.1.1.8">
+				    Odiis etiam prope maioribus certarunt quam viribus, 
+				</ab>
+				<ab xml:id="t.1.1.9">
+				    Romanis indignantibus quod victoribus victi ultro inferrent
+				    arma,
+				</ab>
+				<ab xml:id="t.1.2.1">
+				    Poenis quod superbe avareque crederent imperitatum victis esse.
+				</ab>
+		    </div>
+		    <div type="notes">
+		        
+		    </div>
+	    </body>
+   </text>
+</TEI>
